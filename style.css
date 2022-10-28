@@ -1,3 +1,15 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 h1{
-    color:aquamarine;
+    color:rgb(14, 15, 14);
+    text-align: center;
+}
+.git-init{ 
+    height:200px;
+    width:700px;
+}
+li{
+    font-size: 30px;
+    padding-top: 20px;;
 }
