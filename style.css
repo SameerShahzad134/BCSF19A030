@@ -5,11 +5,21 @@ h1{
     color:rgb(14, 15, 14);
     text-align: center;
 }
-.git-init{ 
+.image{ 
     height:200px;
     width:700px;
 }
 li{
     font-size: 30px;
     padding-top: 20px;;
+}
+.spn{
+    background-color: red;
+}
+.spn-green{
+     background-color: green;
+}
+.git-add-image{
+    height:60px;
+    width:1000px
 }
