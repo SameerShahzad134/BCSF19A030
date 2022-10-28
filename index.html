@@ -29,7 +29,9 @@
         <li>Untracked Files</li>
         <h4> Untracked files are the ones still not versioned—”tracked”—by Git. This is the state of new files you add
             to your repository. That basically means Git is aware the file exists, but still hasn't saved it in its
-            internal database. Below here is an example of Untracked files highlighted in <span class="spn"
+            internal database. If git status mentions "Untracked files:", you may need to add one or more untracked
+            files. This status message is OK. We are up-to-date, there is nothing to commit, but there is still an
+            untracked file. Below here is an example of Untracked files highlighted in <span class="spn"
                 style="color: white;">RED.</span> </h4>
         <img src="/images/Untracked_files.png" class="image" alt=""><br>
         <li>Git Add</li>
@@ -41,6 +43,28 @@
                 style="color: white;">GREEN.</span></h4>
         <img src="/images/git_add.png" class="git-add-image" alt=""><br>
         <img src="/images/files_added.png" class="image" alt=""><br>
+
+        <li>Git Commit</li>
+        <h4>The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots
+            can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it
+            to. The git commit command is one of the core primary functions of Git. Prior use of the git add command is
+            required to select the changes that will be staged for the next commit. Then git commit is used to create a
+            snapshot of the staged changes along a timeline of a Git projects history. To add a Git commit message to your commit, you will use the git commit command followed by the -m flag and then your message in quotes. Below here is an example of GIT
+            COMMIT command with a messege of FIRST COMMIT.  </h4>
+        <img src="/images/git_commit.png" class="image" alt=""><br>
+        <h4>Here a New H1 tag is added in Index.html and its styling is set in style.css. So we will write a meaningful messege to make clarity.</h4>
+        <img src="/images/git_commit of H1 tag.png" alt=""><br>
+        <h4>You can also see that commit on GitHub.</h4>
+        <img src="/images/git_commit of H1 tag on GitHub.png" class="github-commit-image" alt=""><br>
+
+
+        <li>Git Log</li>
+        <h4>The git log command shows a list of all the commits made to a repository. You can see the hash of each Git
+            commit , the message associated with each commit, and more metadata. This command is useful for displaying
+            the history of a repository. The git log command is used to view the history of committed changes within a
+            Git repository. Each set of changes made by a developer is recorded as a commit in Git. The git log command
+            shows a default output for quickly reviewing the commit history.</h4>
+        <img src="/images/git_log.png" class="image" alt=""><br>
     </ul>
 
 </body>
