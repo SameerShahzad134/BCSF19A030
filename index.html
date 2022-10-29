@@ -101,16 +101,7 @@
             does not exist (e.g. unborn branches) and commit is not given, it shows all staged changes. --staged is a
             synonym of --cached. If --merge-base is given, instead of using commit, use the merge base of commit and
             HEAD. git diff --cached --merge-base A is equivalent to git diff --cached $(git merge-base A HEAD).
-        </h4>
-
-
-
-
-
-
-
-
-
+        </h4> 
         <li>GIT LOG</li>
         <h4>The git log command shows a list of all the commits made to a repository. You can see the hash of each Git
             commit , the message associated with each commit, and more metadata. This command is useful for displaying
@@ -132,6 +123,20 @@
             you can see it is pointing to newBranch Branch as highlighted in <span class="spn-green"
                 style="color: white;">GREEN.</span> Below here is an example of all the discussion.</h4>
         <img src="/images/branching.png" class="image" alt=""><br>
+
+
+        <li>Adding a new Remote to your GIT repo</li>
+        <h4>To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+
+            The git remote add command takes two arguments:
+            
+            A unique remote name, for example, “my_awesome_new_remote_repo”
+            
+            A remote URL, which you can find on the Source sub-tab of your Git repo. Copy the link of your newly created repo. Below here is an example highlighted in <span class="spn"
+            style="color: white;">RED.</span> And then use the command <span style="color: rgb(42, 49, 255);">" GIT remote add origin  https://github.com/SameerShahzad134/BCSF19A030.git "</span>  as shown below.</h4>
+        <img src="/images/copy_link.png" class="image" alt=""><br>
+        <img src="/images/paste_link.png" class="image" alt=""><br>
+
     </ul>
 
 </body>
