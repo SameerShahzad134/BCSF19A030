@@ -1,41 +1,59 @@
-*{
+* {
     font-family: 'Quicksand', sans-serif;
 }
-h1{
-    color:rgb(14, 15, 14);
+
+.heading {
+    padding-top: 30px;
+    color: rgb(14, 15, 14);
     text-align: center;
 }
-.image{ 
-    height:200px;
-    width:700px;
+
+.image {
+    height: 200px;
+    width: 700px;
 }
-li{
+
+li {
     font-size: 30px;
     padding-top: 20px;
     text-transform: capitalize;
 }
-.spn{
+
+.spn {
     background-color: red;
 }
-.spn-green{
-     background-color: rgb(86, 190, 86);
+
+.spn-green {
+    background-color: rgb(86, 190, 86);
 }
-.git-add-image{
-    height:60px;
-    width:1000px
+
+.git-add-image {
+    height: 60px;
+    width: 1000px
 }
-.github-commit-image{
-    height:150px;
-    width:1000px
+
+.github-commit-image {
+    height: 150px;
+    width: 1000px
 }
-.profile-image{
-    height:400px;
-    width:300px;
+
+.profile-image {
+    height: 400px;
+    width: 300px;
 }
-.img{
+
+.img {
     height: 300px;
     width: 800px;
 }
-.spn-red{
+
+.spn-red {
     background-color: red;
+}
+
+.footer {
+    color: rgb(14, 15, 14);
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
